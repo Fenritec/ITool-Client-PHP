@@ -1,0 +1,29 @@
+{
+    "name": "fenritec.eu/itool-client-php",
+    "description": "PHP Bindings for ITool Gestion Commercial et Comptabilité API",
+    "type": "library",
+    "require": {
+        "php": ">=8.2",
+        "jane-php/open-api-runtime": "^7.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FenritecEu\\ItoolClientPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicolas SCHWARTZ",
+            "email": "9308314+StarAurryon@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "jane-php/open-api-3": "^7.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
